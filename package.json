@@ -38,10 +38,15 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3"
   },
+
+  
   "jest": {
     "testMatch": [
       "**/src/components/**/*.test.js",
-      "**/src/tests/**/*.test.js"
+      "**/src/tests/**/*.test.js",
+      "**/*.test.js"
     ]
   }
+
+  
 }

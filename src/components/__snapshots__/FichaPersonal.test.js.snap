@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Componente FichaPersonal Pruebas de regresión debe coincidir con el snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="ficha-personal"
+    data-testid="ficha-personal"
+  >
+    <h1>
+      Ficha de Usuario
+    </h1>
+    <p>
+      Nombre: John Doe
+    </p>
+    <p>
+      Email: john.doe@example.com
+    </p>
+    <p>
+      País: Estados Unidos
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Pruebas para FichaPersonal FichaPersonal coincide con el snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <h1>
+      Random People
+    </h1>
+    <div
+      class="SearchForm"
+    >
+      <div
+        class="SearchForm-field"
+      >
+        <select>
+          <option
+            value=""
+          >
+            Both
+          </option>
+          <option
+            value="male"
+          >
+            Male
+          </option>
+          <option
+            value="female"
+          >
+            Female
+          </option>
+        </select>
+      </div>
+      <div
+        class="SearchForm-field"
+      >
+        <input
+          placeholder="Select country code: us, it,..."
+          type="text"
+          value="US"
+        />
+      </div>
+    </div>
+    <div
+      class="App-controls"
+    >
+      <button
+        class="btn"
+      >
+        Buscar con Axios
+      </button>
+      <button
+        class="btn"
+      >
+        Buscar con Fetch
+      </button>
+      <button
+        class="btn"
+      >
+        Comparar Axios vs Fetch
+      </button>
+      <button
+        class="btn"
+      >
+        Ficha Personal
+      </button>
+    </div>
+    <div
+      class="ficha-personal"
+      data-testid="ficha-personal"
+    >
+      <h1>
+        Ficha de Usuario
+      </h1>
+      <p>
+        Nombre: John Doe
+      </p>
+      <p>
+        Email: john.doe@example.com
+      </p>
+      <p>
+        País: Estados Unidos
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
